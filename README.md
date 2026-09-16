@@ -34,5 +34,3 @@ Novos desafios e projetos serão adicionados conforme avanço no curso.
 ## 🚧 Status
 
 **Em desenvolvimento**
-
-Este repositório será atualizado conforme eu avançar no curso.
