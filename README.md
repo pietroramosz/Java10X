@@ -21,13 +21,11 @@ Java10X/
 └── ...
 ```
 
-Novos desafios e projetos serão adicionados conforme avanço no curso.
-
 ## 🎯 Objetivos
 
-* Desenvolver uma base sólida em Java
+* Desenvolver uma base em Java
 * Melhorar minha lógica de programação
-* Aprender Programação Orientada a Objetos
+* Aprender POO
 * Praticar resolução de problemas
 * Registrar minha evolução ao longo do curso
 
