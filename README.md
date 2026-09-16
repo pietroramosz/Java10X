@@ -1,14 +1,15 @@
 # ☕ Java10X
+Repositório dedicado aos desafios e projetos desenvolvidos durante meus estudos no curso **Java10X**.
 
-Repositório dedicado aos meus estudos durante o curso **Java10X**.
-
-Aqui registro meu processo de aprendizado em Java através de exercícios, desafios e pequenos projetos.
+Aqui publico alguns dos exercícios e projetos que desenvolvo ao longo do curso, como forma de registrar minha evolução e prática em Java.
 
 ## 📚 Sobre
 
 Este repositório é **exclusivamente para estudos e aprendizado**.
 
-Os códigos aqui não representam necessariamente projetos profissionais ou código de produção. Alguns exercícios podem conter implementações simples, experimentais ou diferentes das abordagens que eu utilizaria em projetos reais.
+Ele não contém necessariamente todo o conteúdo ou código desenvolvido durante as aulas. O foco está nos desafios, exercícios e projetos que decidi registrar aqui.
+
+Os códigos podem conter implementações simples ou experimentais, já que fazem parte do meu processo de aprendizado.
 
 ## 🗂️ Organização
 
@@ -32,6 +33,6 @@ Novos desafios e projetos serão adicionados conforme avanço no curso.
 
 ## 🚧 Status
 
-**Em desenvolvimento — estudos em andamento.**
+**Em desenvolvimento**
 
 Este repositório será atualizado conforme eu avançar no curso.
