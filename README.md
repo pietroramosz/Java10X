@@ -1,5 +1,5 @@
 # ☕ Java10X
-Repositório dedicado aos desafios e projetos desenvolvidos durante meus estudos no curso **Java10X**.
+Repositório dedicado aos desafios e projetos desenvolvidos durante meus estudos no curso **Java10X** do **Horacio Fiasco**.
 
 Aqui publico alguns dos exercícios e projetos que desenvolvo ao longo do curso, como forma de registrar minha evolução e prática em Java.
 
