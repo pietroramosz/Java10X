@@ -14,9 +14,9 @@ Os códigos aqui não representam necessariamente projetos profissionais ou cód
 
 ```text
 Java10X/
-├── Desafio01/
-├── Desafio02/
 ├── Desafio03/
+├── Desafio04/
+├── Desafio05/
 └── ...
 ```
 
@@ -28,7 +28,6 @@ Novos desafios e projetos serão adicionados conforme avanço no curso.
 * Melhorar minha lógica de programação
 * Aprender Programação Orientada a Objetos
 * Praticar resolução de problemas
-* Aprender Git e GitHub
 * Registrar minha evolução ao longo do curso
 
 ## 🚧 Status
