@@ -15,9 +15,9 @@ Os códigos podem conter implementações simples ou experimentais, já que faze
 
 ```text
 Java10X/
-├── Desafio03/
-├── Desafio04/
-├── Desafio05/
+├── Desafio3/
+├── Desafio4/
+├── Desafio5/
 └── ...
 ```
 
