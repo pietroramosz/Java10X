@@ -3,7 +3,7 @@ package Desafios.Desafio4;
 public class Main {
     static void main() {
 
-        NinjaBásico Boruto = new NinjaBásico("Boruto Uzumaki", 15, "ativar Jogan", tipoHabilidade.NINJUTSU);
+        NinjaBasico Boruto = new NinjaBasico("Boruto Uzumaki", 15, "ativar Jogan", tipoHabilidade.NINJUTSU);
         Boruto.mostrarInformacoes();
         Boruto.executarHabilidades();
 

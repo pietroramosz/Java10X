@@ -1,13 +1,13 @@
 package Desafios.Desafio4;
 
-public class NinjaBásico implements Ninja {
+public class NinjaBasico implements Ninja {
 
     String nome;
     int idade;
     String habilidade;
     tipoHabilidade tipoHabilidade;
 
-    public NinjaBásico(String nome, int idade, String habilidade, tipoHabilidade tipoHabilidade) {
+    public NinjaBasico(String nome, int idade, String habilidade, tipoHabilidade tipoHabilidade) {
         this.nome = nome;
         this.idade = idade;
         this.habilidade = habilidade;
