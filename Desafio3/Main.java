@@ -23,13 +23,14 @@ public class Main {
         Sasuke.HabilidadeEspecial = "Rinnegan";
         ninjas[0] = Sasuke;
 
-        while(escolha != 4) {
+        while(escolha != 5) {
 
             System.out.println("--- Criador de Ninjas do clã Uchiha ---");
             System.out.println("1. Listar Ninjas");
             System.out.println("2. Adicionar");
             System.out.println("3. Atualizar habilidades especiais");
-            System.out.println("4. Sair");
+            System.out.println("4. Deletar Ninja");
+            System.out.println("5. Sair");
             System.out.print("Escolha: ");
 
             escolha = input.nextInt();
@@ -49,7 +50,7 @@ public class Main {
                     if (num_ninjas < ninjas.length) {
                         System.out.print("Digite o nome do Ninja: ");
                         ninjas[num_ninjas] = new Uchiha();
-                        ninjas[num_ninjas].nome = input.nextLine();
+                        ninjas[num_ninjas].nome = input.nextLine() + " Uchiha";
 
                         System.out.print("Digite a idade do Ninja: ");
                         ninjas[num_ninjas].idade = input.nextInt();
@@ -74,7 +75,7 @@ public class Main {
                     }
                     break;
                 case 3:
-                    System.out.println("Deseja mudar a habilidade de qual ninja? (Veja o número de cada um pela escolha de número 1) ");
+                    System.out.println("Deseja mudar a habilidade de qual ninja? (Veja o número de cada um pela escolha de número 1): ");
                     int mudarhabilidade = input.nextInt();
                     input.nextLine();
 
@@ -92,11 +93,32 @@ public class Main {
 
                     break;
                 case 4:
+                    System.out.print("Selecione o ninja que você quer deletar (Veja o número de cada um pela escolha de número 1): ");
+                    int deletar = input.nextInt() - 1;
+                    input.nextLine();
+                    if (deletar < 0 || deletar >= num_ninjas) {
+                        System.out.println("Número de ninja inválido!");
+                    }
+                    else if (deletar == 0) {
+                        System.out.println("Este ninja não pode ser deletado!");
+                    }
+                    else {
+                        for (int i = deletar; i < num_ninjas - 1; i++) {
+                            ninjas[i] = ninjas[i + 1];
+                        }
+
+                        ninjas[num_ninjas - 1] = null;
+                        num_ninjas--;
+                        System.out.println("Ninja deletado!");
+                    }
+                break;
+                case 5:
                     System.out.println("Saindo...");
                     break;
                 default:
                     System.out.println("Opção Inválida!");
             }
         }
+        input.close();
     }
-    }
+}
