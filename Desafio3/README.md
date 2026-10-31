@@ -6,7 +6,7 @@ Desafio desenvolvido durante meus estudos no curso **Java10X** do **Horacio Fias
 
 O exercício consiste em criar e gerenciar ninjas do clã Uchiha por meio de um menu interativo no terminal.
 
-Atualmente, é possível listar ninjas, adicionar novos e atualizar suas habilidades especiais.
+O sistema permite listar, adicionar, atualizar habilidades especiais e remover ninjas, implementando as quatro operações de um CRUD.
 
 ## Conceitos praticados
 
@@ -15,7 +15,9 @@ Atualmente, é possível listar ninjas, adicionar novos e atualizar suas habilid
 - Arrays
 - Entrada de dados com `Scanner`
 - Estruturas de repetição e condicionais
+- Manipulação de arrays
 - Menus interativos
+- Operações CRUD
 
 ## Organização
 
@@ -26,10 +28,5 @@ Desafio3/
 └── Uchiha.java
 ```
 
-## Próximos passos
-Pendente: transformar o exercício em um CRUD completo.
-
-Essa melhoria ainda está em desenvolvimento.
-
 ## Status
-**Em desenvolvimento**
+**Concluído**
